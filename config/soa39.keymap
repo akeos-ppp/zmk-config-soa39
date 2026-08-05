@@ -54,16 +54,6 @@
             bindings = <&kp LA(LC(ENTER))>;
             key-positions = <23 24>;
         };
-
-        l_c {
-            bindings = <&mkp LCLK>;
-            key-positions = <16 17>;
-        };
-
-        r_c {
-            bindings = <&mkp RCLK>;
-            key-positions = <17 18>;
-        };
     };
 
     macros {
@@ -114,10 +104,10 @@
 
         MOUSE {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &mo 6   &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &mo 6   &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans    &mo 6     &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &mkp MB1  &mkp MB2  &mo 6   &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans    &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans    &trans
             >;
         };
 

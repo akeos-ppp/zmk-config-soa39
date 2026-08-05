@@ -98,14 +98,14 @@
 &kp Q             &kp W            &kp E               &kp R        &kp T            &kp Y                       &kp U        &kp I         &kp O               &kp P
 &kp A             &kp S            &kp D               &kp F        &kp G            &kp H                       &kp J        &kp K         &kp L               &mt EQUAL MINUS
 &mt LEFT_SHIFT Z  &kp X            &kp C               &kp V        &kp B            &kp N                       &kp M        &kp COMMA     &kp PERIOD          &mt RIGHT_SHIFT SLASH
-&kp LEFT_ALT      &mt LCTRL LG(L)  &lt 6 LC(UP_ARROW)  &lt 4 SPACE  &lt 2 BACKSPACE  &mt RIGHT_COMMAND CAPSLOCK  &lt 3 ENTER  &kp LEFT_ALT  &mt LEFT_WIN EQUAL
+&kp LEFT_ALT      &mt LCTRL LG(L)  &lt 5 LC(UP_ARROW)  &lt 4 SPACE  &lt 2 BACKSPACE  &mt RIGHT_COMMAND CAPSLOCK  &lt 3 ENTER  &kp LEFT_ALT  &mt LEFT_WIN EQUAL
             >;
         };
 
         MOUSE {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &trans    &mo 6     &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &mkp MB1  &mkp MB2  &mo 6   &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans    &mo 5     &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &mkp MB1  &mkp MB2  &mo 5   &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans    &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans    &trans
             >;
